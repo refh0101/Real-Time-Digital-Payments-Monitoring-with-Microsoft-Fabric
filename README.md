@@ -64,9 +64,7 @@ The event initially arrives with the full transaction structure:
 
 **Raw payment event**
 
-| customer_name | ip_address | customer_id | account_id | transaction_id | amount | currency | risk_score | ... |
-|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | |
+**Raw payment event** → `customer_name` · `ip_address` · `customer_id` · `account_id` · `transaction_id` · `amount` · `currency` · `risk_score` · `...`
 
 The Eventstream processing layer removes:
 
