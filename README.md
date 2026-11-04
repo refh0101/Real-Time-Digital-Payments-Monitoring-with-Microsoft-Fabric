@@ -70,31 +70,11 @@ The event initially arrives with the full transaction structure:
 
 The Eventstream processing layer removes:
 
-Plain Text
-customer_name
-ip_address
+- customer_name
+- ip_address
 
 The sanitized event continues with the fields needed for monitoring:
 
-Plain Text
-customer_id
-account_id
-transaction_id
-transaction_type
-amount
-currency
-transaction_channel
-risk_score
-fraud_flag
-AML/KYC attributes
-event_timestamp
-...
+**Transformed payment event** → `customer_id` · `account_id` · `transaction_id` · `transaction_type` · `amount` · `currency` · `transaction_channel` · `risk_score` · `fraud_flag` · `AML/KYC attributes` · `event_timestamp` 
 
 This is deliberately PII removal rather than visual masking.
-
-The objective is not to display something like:
-
-Plain Text
-John Smith → J*** S****
-
-The objective is to prevent the selected attributes from being persisted in the downstream analytical dataset when those attributes are not required for the use case.
