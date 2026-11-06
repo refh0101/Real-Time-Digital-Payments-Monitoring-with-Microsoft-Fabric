@@ -49,6 +49,9 @@ Operational teams need timely visibility into:
 
 ## Architecture Diagram
 
+<img width="1377" height="782" alt="image" src="https://github.com/user-attachments/assets/78eb3d97-b0a0-41e1-9d33-fb39d929e763" />
+
+
 ## PII Handling
 
 The source dataset contains information that is not required for the planned operational analytics.
