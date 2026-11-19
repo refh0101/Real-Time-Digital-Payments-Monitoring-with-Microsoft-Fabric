@@ -49,7 +49,7 @@ Operational teams need timely visibility into:
 
 ## Architecture Diagram
 
-<img width="1377" height="782" alt="image" src="https://github.com/user-attachments/assets/78eb3d97-b0a0-41e1-9d33-fb39d929e763" />
+<img width="1377" height="782" alt="image" src="https://github.com/refh0101/Real-Time-Digital-Payments-Monitoring-with-Microsoft-Fabric/blob/main/Main/realtime-payments-fabric-architecture.drawio.png" />
 
 
 ## PII Handling
