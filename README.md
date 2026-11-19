@@ -79,3 +79,7 @@ The sanitized event continues with the fields needed for monitoring:
 **Transformed payment event** → `customer_id` · `account_id` · `transaction_id` · `transaction_type` · `amount` · `currency` · `transaction_channel` · `risk_score` · `fraud_flag` · `AML/KYC attributes` · `event_timestamp` 
 
 This is deliberately PII removal rather than visual masking.
+
+## Insights Uncovered from Analysis
+
+
